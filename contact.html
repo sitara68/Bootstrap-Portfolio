@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact | Melanie C. Rose</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+<body>
+<!--Navbar-->  
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Melanie C. Rose</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbar-Nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+<!--Main Section with Contact Form-->
+<div id="main-container" class="container">
+    <section class="main-section">
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required="required"></textarea>
+                </li>
+            </ul>
+            <button>Submit</button> 
+        </form>
+    </section>          
+</div>
+
+<footer>
+    <div class="container">Copyright ©2018</div>
+</footer>
+</body>
+</html>
